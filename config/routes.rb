@@ -1,4 +1,5 @@
 CancanPoc::Application.routes.draw do
+  devise_for :users
   resources :posts
 
   devise_for :admins
